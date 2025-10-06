@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 10 PM Tapping Club - Defeat 'Monkey Mind' at Night</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the landing page */
+        :root {
+            /* NEW COLOR SCHEME: Golden and Light Blue */
+            --executive-dark: #0047AB; /* Deep Blue - Authority/Trust */
+            --cta-primary: #FFD700;    /* Gold - Action/Premium */
+            --soft-linen: #E0F7FA;    /* Very Light Blue - Main Background */
+            --quiet-gray: #374151;    /* Dark Slate Gray - Body Text */
+            --danger-highlight: #DC2626; /* Warning Red - Pain Points */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--soft-linen);
+        }
+
+        .h-montserrat {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Utility classes for backgrounds and text colors */
+        .bg-executive-dark { background-color: var(--executive-dark); }
+        .text-executive-dark { color: var(--executive-dark); }
+        .bg-cta-primary { background-color: var(--cta-primary); }
+        .hover-cta-primary:hover { background-color: #CCAA00; /* Darker Gold for Hover */ }
+        .text-cta-primary { color: var(--cta-primary); }
+        .bg-linen { background-color: var(--soft-linen); }
+        .text-quiet-gray { color: var(--quiet-gray); }
+        .text-danger-highlight { color: var(--danger-highlight); }
+
+        /* Custom scrollbar for a smoother look */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-thumb { background-color: var(--cta-primary); border-radius: 4px; }
+        ::-webkit-scrollbar-track { background-color: var(--soft-linen); }
+
+        /* General section padding */
+        .section-padding { padding: 4rem 1.5rem; }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'executive-dark': 'var(--executive-dark)',
+                        'cta-primary': 'var(--cta-primary)',
+                        'linen': 'var(--soft-linen)',
+                        'quiet-gray': 'var(--quiet-gray)',
+                        'danger-red': 'var(--danger-highlight)', /* Mapped danger-red class to new highlight color */
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Sticky CTA Bar (Always visible for high conversion) -->
+    <div id="sticky-cta" class="fixed bottom-0 left-0 w-full bg-executive-dark shadow-2xl z-50 p-4">
+        <button onclick="scrollToFold(8)" class="w-full bg-cta-primary hover-cta-primary text-executive-dark font-bold h-montserrat text-xl py-3 rounded-xl transition-all duration-300 transform hover:scale-[1.01] shadow-lg focus:outline-none focus:ring-4 focus:ring-cta-primary focus:ring-opacity-50">
+            &#10024; Reserve Your Clarity Call Spot Now!
+        </button>
+    </div>
+
+    <main class="max-w-4xl mx-auto pb-24">
+        
+        <!-- Fold 1: Hero Section (Niche Sleep & Pre-Bed Anxiety) - Deep Serenity Background -->
+        <section class="bg-executive-dark text-white text-center section-padding rounded-b-3xl">
+            <p class="text-xl font-semibold mb-3 tracking-widest uppercase text-cta-primary">
+                ATTENTION:
+            </p>
+            <h1 class="h-montserrat text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+                Busy Minds Who Can't Sleep!
+            </h1>
+            <div class="max-w-3xl mx-auto">
+                <p class="text-2xl font-normal leading-relaxed text-linen/90">
+                    "Tired of Endless Meditation? With <span class="text-cta-primary font-bold">The 10 PM Tapping Club</span>, we're getting High-Stress Executives to finally defeat 'Monkey Mind' at Night within Your First Session, delivering <span class="font-semibold">Great Emotional Release & Peace</span> Without Years of Sitting Still."
+                </p>
+            </div>
+            <button onclick="scrollToFold(8)" class="mt-10 bg-cta-primary hover-cta-primary text-executive-dark font-bold h-montserrat text-2xl py-4 px-10 rounded-xl transition-all duration-300 transform hover:scale-[1.05] shadow-xl shadow-cta-primary/30">
+                Book Your 1-on-1 Clarity Call
+            </button>
+        </section>
+
+        <!-- Fold 5: Introduction (Dr. Gaurav Tripathie) - Authority Builder -->
+        <section class="bg-white shadow-xl rounded-2xl mx-4 -mt-12 p-8 mb-12 relative z-10 border-t-8 border-cta-primary">
+            <div class="flex flex-col md:flex-row items-start md:items-center">
+                <!-- Image Code Added/Updated Here -->
+                <img src="https://placehold.co/150x150/0047AB/FFD700?text=Expert+Coach" alt="Dr. Gaurav Tripathie - EFT Specialist" class="w-32 h-32 rounded-full object-cover mb-4 md:mb-0 md:mr-6 border-4 border-cta-primary shadow-lg">
+                <div>
+                    <h2 class="h-montserrat text-3xl font-bold text-executive-dark mb-2">
+                        Meet Your Guide: Dr. Gaurav Tripathie
+                    </h2>
+                    <p class="text-quiet-gray text-lg leading-relaxed">
+                        For the last 10 years, I've specialized in helping high-achieving people who are emotionally drained and struggling with sleepless nights. I use EFT and specialized Healing Techniques to quickly dissolve the Blocked Emotions—like stress, resentment, and worry—that are hijacking their nervous system. My focus is on giving you a peaceful mind by showing you how to release those emotions nightly, so you can finally get deep, restorative sleep.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fold 2: What You'll Get in the 1-on-1 Call - Core Value -->
+        <section class="section-padding pt-0">
+            <h2 class="h-montserrat text-4xl font-extrabold text-center text-executive-dark mb-10">
+                In This Exclusive 1-on-1 Call, You'll Discover...
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Point 1: Symptom Redefined -->
+                <div class="bg-linen p-6 rounded-xl shadow-lg border-l-4 border-cta-primary">
+                    <span class="text-xl font-bold text-executive-dark mr-2">1.</span>
+                    <p class="text-lg text-executive-dark font-semibold">
+                        The "Symptom" Redefined
+                    </p>
+                    <p class="text-quiet-gray mt-2">
+                        Your sleeplessness is actually a nervous system stuck in the "fight-or-flight" mode well past bedtime. We'll pinpoint exactly why.
+                    </p>
+                </div>
+                <!-- Point 2: Blocked Emotions -->
+                <div class="bg-linen p-6 rounded-xl shadow-lg border-l-4 border-cta-primary">
+                    <span class="text-xl font-bold text-executive-dark mr-2">2.</span>
+                    <p class="text-lg text-executive-dark font-semibold">
+                        The Real Energy Drainer
+                    </p>
+                    <p class="text-quiet-gray mt-2">
+                        Your inability to rest is due to blocked emotions (like anger, fear, or resentment) that demand attention precisely at 10 PM.
+                    </p>
+                </div>
+                <!-- Point 3: Missing Tool -->
+                <div class="bg-linen p-6 rounded-xl shadow-lg border-l-4 border-cta-primary">
+                    <span class="text-xl font-bold text-executive-dark mr-2">3.</span>
+                    <p class="text-lg text-executive-dark font-semibold">
+                        The Missing "Off-Switch"
+                    </p>
+                    <p class="text-quiet-gray mt-2">
+                        You lack a simple, reliable tool (like EFT) to physically down-regulate the amygdala (the brain's fear center) and signal safety.
+                    </p>
+                </div>
+                <!-- Point 4: The Battle-Tested Method -->
+                <div class="bg-linen p-6 rounded-xl shadow-lg border-l-4 border-cta-primary">
+                    <span class="text-xl font-bold text-executive-dark mr-2">4.</span>
+                    <p class="text-lg text-executive-dark font-semibold">
+                        The Battle-Tested Reset
+                    </p>
+                    <p class="text-quiet-gray mt-2">
+                        You will learn that the 10 PM Tapping Club is your "Battle-Tested" method for clearing blocked emotions and guaranteeing deep, restful sleep.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Fold 3: Diagnostic Pain Points - Highlighting Urgency -->
+        <section class="section-padding bg-white">
+            <h2 class="h-montserrat text-4xl font-extrabold text-center text-executive-dark mb-10">
+                This 1-on-1 Call is For You If This Is Your 10 PM Reality:
+            </h2>
+            <p class="text-center text-xl text-quiet-gray max-w-2xl mx-auto mb-8">
+                Your blocked emotions are hijacking your ability to rest, and you are experiencing any of the following:
+            </p>
+            <div class="grid md:grid-cols-2 gap-x-6 gap-y-4">
+                <div class="flex items-start p-4 bg-linen rounded-xl shadow-md">
+                    <svg class="w-6 h-6 flex-shrink-0 mt-1 text-executive-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <p class="ml-4 text-lg text-executive-dark">You find yourself waking up between <span class="font-semibold text-danger-red">2 AM and 4 AM</span>, consumed by worry.</p>
+                </div>
+                <div class="flex items-start p-4 bg-linen rounded-xl shadow-md">
+                    <svg class="w-6 h-6 flex-shrink-0 mt-1 text-executive-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <p class="ml-4 text-lg text-executive-dark">Your to-do list is a source of <span class="font-semibold text-danger-red">crippling anxiety</span> that grows bigger as you try to relax.</p>
+                </div>
+                <div class="flex items-start p-4 bg-linen rounded-xl shadow-md">
+                    <svg class="w-6 h-6 flex-shrink-0 mt-1 text-executive-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <p class="ml-4 text-lg text-executive-dark">You dread Mondays because your nervous system <span class="font-semibold text-danger-red">never truly switches off</span> to recharge.</p>
+                </div>
+                <div class="flex items-start p-4 bg-linen rounded-xl shadow-md">
+                    <svg class="w-6 h-6 flex-shrink-0 mt-1 text-executive-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <p class="ml-4 text-lg text-executive-dark">Financial instability manifests as <span class="font-semibold text-danger-red">paralyzing scarcity fears</span> and stress every night.</p>
+                </div>
+                <div class="flex items-start p-4 bg-linen rounded-xl shadow-md">
+                    <svg class="w-6 h-6 flex-shrink-0 mt-1 text-executive-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <p class="ml-4 text-lg text-executive-dark">You use extended work hours to <span class="font-semibold">avoid being alone</span> with your racing thoughts at night.</p>
+                </div>
+                <div class="flex items-start p-4 bg-linen rounded-xl shadow-md">
+                    <svg class="w-6 h-6 flex-shrink-0 mt-1 text-executive-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <p class="ml-4 text-lg text-executive-dark">You constantly <span class="font-semibold text-danger-red">re-run difficult conversations</span> with colleagues in your head.</p>
+                </div>
+            </div>
+            <div class="mt-10 text-center">
+                 <button onclick="scrollToFold(8)" class="bg-cta-primary hover-cta-primary text-executive-dark font-bold h-montserrat text-xl py-3 px-8 rounded-xl transition-all duration-300 shadow-lg focus:outline-none focus:ring-4 focus:ring-cta-primary focus:ring-opacity-50">
+                    I Need This Reset!
+                </button>
+            </div>
+        </section>
+
+        <!-- Fold 6: Testimonials - Social Proof & Credibility -->
+        <section class="section-padding bg-executive-dark">
+            <h2 class="h-montserrat text-4xl font-extrabold text-center text-white mb-12">
+                Real Results from High-Achieving Clients
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-linen p-6 rounded-xl shadow-xl border-t-8 border-cta-primary">
+                    <p class="italic text-lg text-executive-dark mb-4">
+                        "Before Dr. Tripathie's program, I was one of those people who woke up every single night at 2 AM, consumed by anxiety... Now, after just three weeks, I finally have a tool to process that emotional noise. My nights are peaceful, my thoughts are quiet, and I'm sleeping all the way through. It's truly life-changing."
+                    </p>
+                    <p class="font-semibold text-executive-dark text-right">— Shikka Kariwala., <span class="text-quiet-gray font-normal">Entrepreneur</span></p>
+                </div>
+                 <!-- Testimonial 2 -->
+                <div class="bg-linen p-6 rounded-xl shadow-xl border-t-8 border-cta-primary">
+                    <p class="italic text-lg text-executive-dark mb-4">
+                        "My biggest issue wasn't insomnia; it was emotional burnout that surfaced as a racing mind at night... The 10 PM Tapping Club has become my non-negotiable end-of-day ritual. I tap, I release the tension, and I feel calmer and more competent the next day. This is the only thing that actually worked for my chronic stress."
+                    </p>
+                    <p class="font-semibold text-executive-dark text-right">— Praveen Kumar., <span class="text-quiet-gray font-normal">Senior Manager</span></p>
+                </div>
+                 <!-- Testimonial 3 -->
+                <div class="bg-linen p-6 rounded-xl shadow-xl border-t-8 border-cta-primary">
+                    <p class="italic text-lg text-executive-dark mb-4">
+                        "I was skeptical about EFT, but I was desperate for sleep. I tried everything—pills, endless meditation—nothing helped the constant knot of worry in my stomach... He showed me how to use tapping to clear a lifetime of emotional blocks in minutes. The value I get from the 10 PM Club is worth ten times the price."
+                    </p>
+                    <p class="font-semibold text-executive-dark text-right">— Radhika., <span class="text-quiet-gray font-normal">Financial Consultant</span></p>
+                </div>
+                 <!-- Testimonial 4 -->
+                <div class="bg-linen p-6 rounded-xl shadow-xl border-t-8 border-cta-primary">
+                    <p class="italic text-lg text-executive-dark mb-4">
+                        "As a busy mom, I just didn't have hours for self-care. But the short, focused sessions in the 10 PM Tapping Club fit perfectly. I used the 'Midnight Mind Shutdown' recorded session one night when I woke up at 3:30 AM and was back asleep within 15 minutes. Knowing I have that support... has given me my evenings back and my energy levels soaring."
+                    </p>
+                    <p class="font-semibold text-executive-dark text-right">— Manisha., <span class="text-quiet-gray font-normal">Overwhelmed Parent</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fold 4: Package Bonuses & Value Stack -->
+        <section class="section-padding bg-white">
+             <h2 class="h-montserrat text-4xl font-extrabold text-center text-executive-dark mb-10">
+                The Battle-Tested Reset: Your Exclusive Package Includes...
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Bonus 1 & 2 -->
+                <div class="md:col-span-2">
+                    <ul class="space-y-4 text-xl text-executive-dark">
+                        <li class="flex items-center p-3 bg-linen rounded-lg shadow-sm border border-quiet-gray/20">
+                            <svg class="w-6 h-6 text-executive-dark flex-shrink-0 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="font-semibold">10 PM WhatsApp Support:</span> Direct access for rapid emotional relief when you need it most.
+                        </li>
+                        <li class="flex items-center p-3 bg-linen rounded-lg shadow-sm border border-quiet-gray/20">
+                            <svg class="w-6 h-6 text-executive-dark flex-shrink-0 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="font-semibold">Recorded Sessions:</span> Never miss a deep-dive session; perfect for midnight mind shutdowns.
+                        </li>
+                        <li class="flex items-center p-3 bg-linen rounded-lg shadow-sm border border-quiet-gray/20">
+                            <svg class="w-6 h-6 text-executive-dark flex-shrink-0 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="font-semibold">Healing Meditations with Light Language Music:</span> High-vibrational tools for deeper calm.
+                        </li>
+                        <li class="flex items-center p-3 bg-linen rounded-lg shadow-sm border border-quiet-gray/20">
+                            <svg class="w-6 h-6 text-executive-dark flex-shrink-0 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span class="font-semibold">E-Book: The Language of Emotions:</span> Your personal guide to decoding your body's signals.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Bonus 3, 4, 7 (Quick-Win Bonuses) -->
+                <div class="md:col-span-1">
+                    <div class="bg-executive-dark text-white p-6 rounded-xl shadow-xl space-y-4">
+                         <h3 class="text-xl font-bold h-montserrat text-cta-primary">Fast-Track Bonuses:</h3>
+                        <p class="flex items-center"><span class="text-cta-primary mr-3 text-2xl">&#9733;</span> Free 3 Scripts for <span class="font-semibold ml-1">Money Miracle</span></p>
+                        <p class="flex items-center"><span class="text-cta-primary mr-3 text-2xl">&#9733;</span> A Symbol to Open Your <span class="font-semibold ml-1">Blockage</span></p>
+                        <p class="flex items-center"><span class="text-cta-primary mr-3 text-2xl">&#9733;</span> Technique to Balance your <span class="font-semibold ml-1">Chakra in minutes</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fold 7: Quotes - Philosophical Authority -->
+        <section class="section-padding bg-linen">
+            <div class="max-w-3xl mx-auto text-center">
+                <blockquote class="text-3xl font-light text-executive-dark italic border-l-4 border-cta-primary pl-4 mb-8">
+                    "Your pillow isn't meant for tears and worries. It's meant for peace, found when you finally release what's holding you awake."
+                </blockquote>
+                <p class="text-xl text-quiet-gray mb-10">
+                    Blocked emotions don't disappear at bedtime; they simply turn into restless nights. True rest begins with true release.
+                </p>
+                <div class="inline-block p-4 bg-white rounded-xl shadow-md">
+                     <blockquote class="text-xl font-medium text-executive-dark">
+                        <span class="text-cta-primary font-bold mr-2">Carl Jung:</span> "One does not become enlightened by imagining figures of light, but by making the darkness conscious."
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fold 8: Final Call to Action -->
+        <section id="final-cta-fold" class="section-padding bg-executive-dark text-center rounded-t-3xl">
+            <h2 class="h-montserrat text-4xl font-extrabold text-white mb-4">
+                Still Wondering If the 10 PM Tapping Club is for YOU?
+            </h2>
+            <p class="text-3xl text-cta-primary font-bold h-montserrat mb-8">
+                The Answer is Simple: YES.
+            </p>
+            <p class="text-xl text-linen max-w-2xl mx-auto mb-10">
+                If you are looking for deep, peaceful sleep and a calm mind free from overwhelming emotions, the 10 PM Tapping Club is the most effective way to get those results. Reserve your spot now!
+            </p>
+            <button onclick="bookCall()" class="bg-cta-primary hover-cta-primary text-executive-dark font-bold h-montserrat text-3xl py-5 px-12 rounded-xl transition-all duration-300 transform hover:scale-[1.05] shadow-2xl shadow-cta-primary/50">
+                &#10024; Reserve Your Spot Right Now!
+            </button>
+            <p class="mt-4 text-quiet-gray text-sm">You are just one step away from our Clarity Call.</p>
+        </section>
+
+        <!-- Fold 9: Frequently Asked Questions (FAQs) -->
+        <section class="section-padding bg-white">
+            <h2 class="h-montserrat text-4xl font-extrabold text-center text-executive-dark mb-10">
+                Frequently Asked Questions
+            </h2>
+            <div class="space-y-4 max-w-3xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="rounded-xl shadow-md border border-quiet-gray/10">
+                    <button class="w-full text-left p-4 flex justify-between items-center bg-linen font-semibold text-lg text-executive-dark focus:outline-none" onclick="toggleAccordion(1)">
+                        What will be the duration of the call?
+                        <span id="icon-1" class="transition-transform duration-300 transform">&#9660;</span>
+                    </button>
+                    <div id="content-1" class="hidden p-4 text-quiet-gray text-base leading-relaxed border-t border-quiet-gray/10">
+                        <p class="font-bold text-executive-dark mb-2">For the 1-on-1 Clarity Call:</p>
+                        "Our exclusive 1-on-1 call is a focused 30-minute session. This allows us enough time to get clear on the specific emotional blocks stealing your sleep and outline the perfect 'way forward' for you."
+                        <p class="font-bold text-executive-dark mt-4 mb-2">For a Program Session (e.g., 10 PM Tapping Club):</p>
+                        "Each live session in the 10 PM Tapping Club is 60 minutes, dedicated to deep emotional release and calming your nervous system for the night ahead."
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="rounded-xl shadow-md border border-quiet-gray/10">
+                    <button class="w-full text-left p-4 flex justify-between items-center bg-linen font-semibold text-lg text-executive-dark focus:outline-none" onclick="toggleAccordion(2)">
+                        Will it be a recorded call?
+                        <span id="icon-2" class="transition-transform duration-300 transform">&#9660;</span>
+                    </button>
+                    <div id="content-2" class="hidden p-4 text-quiet-gray text-base leading-relaxed border-t border-quiet-gray/10">
+                        <p class="font-bold text-executive-dark mb-2">For the 1-on-1 Clarity Call:</p>
+                        "To ensure a safe and confidential space for your personal insights, the 1-on-1 call will not be recorded."
+                        <p class="font-bold text-executive-dark mt-4 mb-2">For a Program Session (e.g., 10 PM Tapping Club):</p>
+                        "Yes! All sessions for the 10 PM Tapping Club are recorded and made available to members within 24 hours. This means you can catch up or re-listen anytime."
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="rounded-xl shadow-md border border-quiet-gray/10">
+                    <button class="w-full text-left p-4 flex justify-between items-center bg-linen font-semibold text-lg text-executive-dark focus:outline-none" onclick="toggleAccordion(3)">
+                        What is the Refund Policy?
+                        <span id="icon-3" class="transition-transform duration-300 transform">&#9660;</span>
+                    </button>
+                    <div id="content-3" class="hidden p-4 text-quiet-gray text-base leading-relaxed border-t border-quiet-gray/10">
+                        <p class="font-bold text-executive-dark mb-2">For the 1-on-1 Clarity Call:</p>
+                        "The 1-on-1 call is a complimentary discovery session."
+                        <p class="font-bold text-executive-dark mt-4 mb-2">For the 10 PM Tapping Club Program:</p>
+                        "We offer a 14-day money-back guarantee. If within 14 days you don't feel you're getting closer to peaceful, consistent sleep, simply let us know for a full refund. Your peace of mind is our priority."
+                    </div>
+                </div>
+
+                <!-- WhatsApp Button -->
+                <div class="pt-6 text-center">
+                    <p class="text-lg text-executive-dark mb-4 font-semibold">Join the conversation and community:</p>
+                    <button class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-xl transition-colors duration-300 shadow-md flex items-center justify-center mx-auto">
+                        <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.5 14.5c-.27 0-.58-.09-1.05-.29-.47-.2-1.82-.89-2.07-.98-.25-.09-.43-.13-.61.13-.18.27-.7.98-.86 1.18-.16.2-.32.22-.59.13-.27-.09-1.15-.42-2.19-1.35-.8-.71-1.34-1.58-1.5-1.85-.16-.27-.02-.42.13-.56.12-.11.27-.27.4-.41.14-.14.19-.23.25-.37.07-.13.04-.25-.01-.35-.05-.1-.47-1.16-.64-1.57-.16-.4-.32-.34-.44-.34-.12 0-.25-.02-.4-.02-.15 0-.41.05-.62.27-.22.22-.82.8-.84 1.98-.02 1.18.86 2.37.98 2.53.12.16 1.76 2.67 4.25 3.61 2.31.85 2.76.7 3.29.61.53-.09 1.15-.47 1.31-.93.16-.47.16-.87.11-.98-.05-.11-.18-.16-.38-.27z"/></svg>
+                        Join the Private WhatsApp Group
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- JavaScript for Functionality and Firebase Setup -->
+    <script type="module">
+        // Import required Firebase modules
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInWithCustomToken, signInAnonymously } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        import { setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        
+        // --- Firebase Setup ---
+        let db, auth;
+        let userId = 'loading'; // Will be updated on auth
+
+        setLogLevel('Debug');
+
+        const initializeFirebase = async () => {
+            try {
+                // Global variables are provided by the canvas environment
+                const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+                const firebaseConfig = JSON.parse(typeof __firebase_config !== 'undefined' ? __firebase_config : '{}');
+                const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+
+                if (Object.keys(firebaseConfig).length === 0) {
+                    console.error("Firebase configuration is missing.");
+                    return;
+                }
+
+                const app = initializeApp(firebaseConfig);
+                db = getFirestore(app);
+                auth = getAuth(app);
+
+                // Authenticate user
+                if (initialAuthToken) {
+                    await signInWithCustomToken(auth, initialAuthToken);
+                } else {
+                    await signInAnonymously(auth);
+                }
+
+                userId = auth.currentUser?.uid || crypto.randomUUID();
+                console.log("Firebase initialized. User ID:", userId);
+
+                // Example: Record landing page visit on auth completion
+                await recordVisit(appId);
+                
+            } catch (error) {
+                console.error("Firebase initialization or authentication error:", error);
+            }
+        };
+        
+        const recordVisit = async (appId) => {
+             // We use the public path as this is a general visit tracker for the app.
+             const visitRef = doc(db, `/artifacts/${appId}/public/data/visits`, crypto.randomUUID());
+             try {
+                await setDoc(visitRef, {
+                    timestamp: new Date().toISOString(),
+                    page: 'landing_page',
+                    user: userId 
+                });
+                console.log("Landing page visit recorded.");
+            } catch (error) {
+                console.error("Error recording visit:", error);
+            }
+        }
+
+        // --- UI Functionality ---
+
+        // Smooth scroll to target fold
+        window.scrollToFold = (foldNumber) => {
+            const element = document.getElementById(foldNumber === 8 ? 'final-cta-fold' : `fold-${foldNumber}`);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // Accordion toggle logic for FAQs
+        window.toggleAccordion = (id) => {
+            const content = document.getElementById(`content-${id}`);
+            const icon = document.getElementById(`icon-${id}`);
+            
+            if (content.classList.contains('hidden')) {
+                // Open the clicked accordion
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                // Close the clicked accordion
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        // Action for the main CTA button (simulates booking flow)
+        window.bookCall = () => {
+            const messageBox = document.createElement('div');
+            messageBox.className = 'fixed inset-0 bg-executive-dark bg-opacity-80 flex items-center justify-center z-[100]';
+            messageBox.innerHTML = `
+                <div class="bg-white p-8 rounded-xl shadow-2xl max-w-sm text-center transform transition-all duration-300 scale-100">
+                    <p class="h-montserrat text-2xl font-bold text-executive-dark mb-4">Success! Almost There.</p>
+                    <p class="text-quiet-gray mb-6">You've initiated the booking. You will now be redirected to the scheduling calendar to select your 1-on-1 Clarity Call time.</p>
+                    <button id="close-modal" class="bg-cta-primary hover-cta-primary text-executive-dark font-bold py-2 px-6 rounded-lg transition-colors duration-300">
+                        Continue to Calendar
+                    </button>
+                </div>
+            `;
+            document.body.appendChild(messageBox);
+            
+            document.getElementById('close-modal').onclick = () => {
+                messageBox.remove();
+                // In a real app, you would redirect the user here:
+                // window.location.href = 'https://your-scheduling-link.com';
+            };
+        };
+
+        // Initialize everything on load
+        window.onload = initializeFirebase;
+    </script>
+</body>
+</html>
+
+
